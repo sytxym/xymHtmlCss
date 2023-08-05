@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 940px;
+            height: 200px;
+            margin: 0 auto;
+            background: yellow;
+        }
+
+        .box div{
+            width: 300px;
+            height: 200px;
+            background: red;
+            float: left;
+            margin-right: 20px;
+        }
+
+        /* .box .last{
+            margin-right: 0;
+        } */
+
+
+        /* 结构伪类选择器 box下面div的最后一个*/
+        .box div:last-child{
+            margin-right: 0;
+            background: gray;
+        }
+
+           /* 结构伪类选择器 box下面div的第一个*/
+        .box div:first-child{
+            background: brown;
+        }
+
+           /* 结构伪类选择器 box下面div的指定第几个*/
+        /* .box div:nth-child(1){
+            background: blueviolet;
+        } */
+
+                /* 结构伪类选择器 box下面div的偶数位(2n或even)  奇数位（2n-1或2n+1或odd）*/
+        .box div:nth-child(2n){
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div class="last"></div>
+    </div>
+</body>
+</html>

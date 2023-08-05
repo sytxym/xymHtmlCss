@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div:nth-child(3){
+            width: 100px;
+            height: 100px;
+        }
+
+
+        /* div只有独生子女的节点选中 */
+        div p:only-child{
+            background: red;
+        }
+
+        /*div没有孩子的节点，连空格也不能有*/
+        div:empty{
+            background: gold;
+        }
+
+        /* 根，代表html整个文档 */
+        :root{
+            background: brown;
+        }
+   
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>111</p>
+        <p>222</p>
+    </div>
+
+    <div>
+        <p>11111</p>
+    </div>
+
+    <div></div>
+</body>
+</html>

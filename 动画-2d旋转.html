@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background: lightblue;
+        }
+
+        div{
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(white 50%,black 50%);
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            border-radius: 50%;
+
+            /* 动画  旋转*/
+            /* transform: rotate(40deg); */
+            /* transform: rotateX(40deg); */
+
+            /* 调整旋转的中心点 */
+            /* transform-origin: bottom center; */
+
+
+            transition: all 5s;
+        }
+
+
+        div:hover{
+            transform: rotate(360deg);
+        }
+
+
+        div::before{
+            display: block;
+            content: "";
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(white 25%,black 30%);
+            /* background: red; */
+            border-radius: 50%;
+        }
+        
+        div::after{
+            display: block;
+            content: "";
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(black 25%,white 30%);
+            /* background: blue; */
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

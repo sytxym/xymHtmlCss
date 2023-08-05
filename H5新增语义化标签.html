@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html,body{
+            height: 100%;
+        }
+
+        header,footer{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background: orange;
+        }
+
+        section{
+            height: calc(100% - 100px);
+        }
+
+        nav,aside{
+            width: 100px;
+            height: 100%;
+            background: #eee;
+            float: left;
+        }
+
+        main{
+            float: left;
+            width: calc(100% - 200px);
+            background: white;
+            height: 100%;
+        }
+
+        main .article1{
+            height: 60%;
+        }
+        
+        main .article2{
+            height: 40%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- <header>: 用于定义文档的头部区域，通常包含一些引导和导航信息。
+        <nav>: 用于定义页面的导航链接。
+        <main>: 用于定义文档的主要内容。每个页面应该只包含一个<main>元素。
+        <article>: 用于定义页面上的独立的、可以独立于其余内容理解的内容区域，如一篇博客文章，一个论坛帖子，或者一部分新闻报道。
+        <section>: 用于定义文档中的一个独立区块，比如章节、页眉、页脚或文档中的其他部分。
+        <aside>: 用于定义页面的侧边栏内容，通常包含与当前页面内容相关的引用、侧边栏、广告等。
+        <footer>: 用于定义文档或一个区域的底部，通常包含版权信息、作者信息、联系信息等。
+        <figure> 和 <figcaption>: <figure>元素表示独立的流内容（如图像、图表、照片、代码等），<figcaption>元素用于为<figure>提供标题或说明。
+        <mark>: 用于定义需要突出显示或强调的文本。
+        <time>: 用于定义日期或时间。
+        这些标签不仅使得代码更易于阅读和理解，也使得搜索引擎更容易理解页面的结构和内容。 -->
+
+    <header>头部</header>
+    <section>
+        <nav>
+            <figure>导航</figure><br>
+            <ul>
+                <li>导航1</li>
+                <li>导航2</li>
+                <li>导航3</li>
+                <li>导航4</li>
+            </ul>
+        </nav>
+
+        <main>
+            <article class="article1">
+                <header>article-header</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Esse eveniet earum autem perspiciatis nihil qui officiis ducimus. 
+                    Iste, animi voluptatibus necessitatibus rerum aliquam, 
+                    odit itaque eveniet laudantium mollitia eos quia!</p>
+                <footer>article-footer</footer>
+            </article>
+
+            <article class="article2">
+                <header>article-header</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eveniet earum autem perspiciatis nihil qui officiis ducimus. Iste, animi voluptatibus necessitatibus rerum aliquam, odit itaque eveniet laudantium mollitia eos quia!</p>
+                <footer>article-footer</footer>
+            </article>
+        </main>
+
+        <aside>
+            <figure>侧边栏内容</figure><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusamus quo dolor quos cupiditate odio ea ipsam, quis quia fugiat eos, iste alias soluta? Consequuntur omnis nemo excepturi iusto corporis!</p>
+        </aside>
+    </section>
+    <footer>底部</footer>
+</body>
+</html>

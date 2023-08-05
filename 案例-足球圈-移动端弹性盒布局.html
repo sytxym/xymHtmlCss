@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="font_支付宝/iconfont.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            height: 44px;
+            background: #0bc23d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header div {
+            width: 60px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        header div:nth-child(1) {
+            border-radius: 12px 0 0 12px;
+            background: #63d889;
+            color: white;
+        }
+
+        header div:nth-child(2) {
+            border-radius: 0 12px 12px 0;
+            background: #40d069;
+            color: #b0d0ba;
+        }
+
+        section {
+            flex: 1;
+            overflow: auto;
+        }
+
+        section ul {
+            display: flex;
+            position: sticky;
+            top: 0;
+            background: white;
+        }
+
+        section ul li {
+            flex: 1;
+            text-align: center;
+            line-height: 35px;
+            height: 35px;
+            border-bottom: 1px solid #d9d9d9;
+            color: #8c8c8c;
+            font-size: 14px;
+        }
+
+        section ul li:hover {
+            border-bottom: 2px solid #0bc23d;
+            color: #0bc23d;
+        }
+
+        section .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        section .list div {
+            width: 49%;
+            border: 1px solid gray;
+            margin-top: 5px;
+        }
+
+        section .list div img {
+            width: 100%;
+        }
+
+        section .list div p{
+            text-indent: 25px;
+            font-size: 12px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+
+        footer {
+            height: 44px;
+            background: white;
+            color:#d5d5d7 ;
+        }
+
+        footer ul{
+            display:flex;
+            height: 100%;
+            
+        }
+
+        footer ul li{
+            display:flex;
+            height: 100%;
+            flex-direction: column;
+            flex: 1;
+            justify-content: center;
+        }
+
+        footer ul li:hover{
+            color: #08ca43;
+        }
+
+        footer ul li:nth-child(3) i{
+            width: 50px;
+            height: 50px;
+            border: 1px solid gray;
+            border-radius: 50%;
+            position: absolute;
+            top: -8px;
+            left: 50%;
+            margin-left: -25px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 50px;
+            background: white;
+        }
+
+        
+        footer ul li:nth-child(3){
+            position: relative;
+        }
+
+        footer li i{
+            height: 21px;
+            line-height: 21px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        footer li span{
+            height: 17px;
+            line-height: 17px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>热点</div>
+        <div>关注</div>
+    </header>
+    <section>
+        <ul>
+            <li>足球现场</li>
+            <li>足球生活</li>
+            <li>足球美女</li>
+        </ul>
+
+        <div class="list">
+            <div>
+                <img src="文件/zuqiuquan_test1.png" alt="">
+                <p>每一天</p>
+            </div>
+            <div>
+                <img src="文件/zuqiuquan_test1.png" alt="">
+                <p>每一天</p>
+            </div>
+            <div><img src="文件/zuqiuquan_test1.png" alt="">
+                <p>每一天</p>
+            </div>
+            <div><img src="文件/zuqiuquan_test1.png" alt="">
+                <p>每一天</p>
+            </div>
+            <div><img src="文件/zuqiuquan_test1.png" alt="">
+                <p>每一天</p>
+            </div>
+            <div><img src="文件/zuqiuquan_test1.png" alt="">
+                <p>每一天</p>
+            </div>
+            <div><img src="文件/zuqiuquan_test1.png" alt="">
+                <p>每一天</p>
+            </div>
+            <div><img src="文件/zuqiuquan_test1.png" alt="">
+                <p>每一天</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+       <ul>
+        <li>
+            <i class="iconfont icon-addressbook"></i>
+            <span>首页</span>
+        </li>
+        <li>
+            <i class="iconfont icon-zhifubao"></i>
+            <span>支付</span>
+        </li>
+        <li>  <i class="iconfont icon-lvhang"></i>
+          </li>
+        <li>  <i class="iconfont icon-wode"></i>
+            <span>我的</span></li>
+        <li>  <i class="iconfont icon-koubei"></i>
+            <span>退出</span></li>
+       </ul>
+    </footer>
+</body>
+
+</html>

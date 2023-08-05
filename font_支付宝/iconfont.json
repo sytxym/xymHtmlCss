@@ -1,0 +1,170 @@
+{
+  "id": "4141982",
+  "name": "支付宝",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577350",
+      "name": "朋友",
+      "font_class": "pengyou",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "577368",
+      "name": "淘宝",
+      "font_class": "taobao",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "912827",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "1079471",
+      "name": "机票",
+      "font_class": "jipiao",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1079498",
+      "name": "亲密付",
+      "font_class": "qinmifu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1079501",
+      "name": "手机充值",
+      "font_class": "shoujichongzhi",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "1079512",
+      "name": "游戏充值",
+      "font_class": "youxichongzhi",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1214977",
+      "name": "股票",
+      "font_class": "gupiao",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "2076312",
+      "name": " 我的",
+      "font_class": "wode",
+      "unicode": "e8a0",
+      "unicode_decimal": 59552
+    },
+    {
+      "icon_id": "2087551",
+      "name": "旅行",
+      "font_class": "lvhang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "2225233",
+      "name": "口碑",
+      "font_class": "koubei",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "2803733",
+      "name": "理财",
+      "font_class": "licai",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "7017712",
+      "name": "口碑",
+      "font_class": "koubei1",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "15727005",
+      "name": "转账",
+      "font_class": "zhuanzhang",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "16616101",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "16617390",
+      "name": "scan",
+      "font_class": "scan",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "16617400",
+      "name": "pay",
+      "font_class": "pay",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "16617414",
+      "name": "card",
+      "font_class": "card",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "16617885",
+      "name": "account book",
+      "font_class": "accountbook",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "16618578",
+      "name": "address book",
+      "font_class": "addressbook",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "16619405",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6d4",
+      "unicode_decimal": 59092
+    },
+    {
+      "icon_id": "16619483",
+      "name": "type",
+      "font_class": "type",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "19713855",
+      "name": "信用卡",
+      "font_class": "creditcard-fill",
+      "unicode": "ebea",
+      "unicode_decimal": 60394
+    }
+  ]
+}

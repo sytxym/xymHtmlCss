@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div{
+            width: 200px;
+            height: 200px;
+            background: red;
+
+            animation: run 5s steps(1,end);
+
+        }
+
+        @keyframes run {
+            0%{
+                background: red;
+            }
+            5%{
+                background: green;
+            }
+            0%{
+                background: yellow;
+            }
+
+
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- steps(直接可以进行关键帧跳跃) , linear,ease-in -->
+
+    <div></div>
+
+
+</body>
+</html>

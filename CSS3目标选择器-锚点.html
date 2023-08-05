@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* <a helf="#锚点名称"></a> 
+           <div id="锚点名字"></div> 
+        */
+
+
+        *{ 
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            list-style: none;
+            position: fixed;
+            background: red;
+            right: 0;
+            top: 50%;
+        }
+
+        ul li{
+            border: 1px solid green;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            color:white;
+        }
+
+        div{
+            width: 100%;
+            height: 900px;
+            text-align: center;
+            line-height: 900px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        /* 目标伪类选择器-点击锚点背景改变 */
+        div:target{
+            background: red;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="#jd">京东集团</a>
+        </li>
+
+        <li>
+            <a href="#mt">美团和大众点评</a>
+        </li>
+
+        <li>
+            <a href="#albb"> 阿里巴巴</a>
+        </li>
+
+        <li>
+            <a href="#xm">小米科技</a>
+        </li>
+    </ul>
+
+    <div id="jd">
+        京东集团
+    </div>
+
+    <div id="mt">
+        美团和大众点评
+    </div>
+    <div id="albb">
+        阿里巴巴
+    </div>
+
+    <div id="xm">
+        小米科技
+    </div>
+
+</body>
+</html>

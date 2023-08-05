@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div{
+            width: 200px;
+            height: 200px;
+            background: red;
+
+            /* 复合写法 */
+            /* animation: xymrun1 10s linear 1s infinite; */
+            /* infinite 无限次循环 */
+
+            
+
+            /* 单一写法 */
+            animation-name: xymrun;
+
+            /* 动画时长 */
+            animation-duration: 10s;
+
+            /* 动画类型 */
+            animation-timing-function: linear;
+
+            /* 动画延迟 */
+            animation-delay: 1s;
+
+
+            /* 循环次数 */
+            animation-iteration-count: infinite;
+
+            /* 运行状态 */
+            /* animation-play-state: paused; */
+            
+            /* 方向 */
+            animation-direction: alternate-reverse;
+
+            /* 填充模式，可以停留在最后一帧 */
+            animation-fill-mode:forwards;
+        }
+
+        /* 声明关键帧 */
+        @keyframes xymrun {
+            from{
+                width: 200px;
+                height: 200px;
+                background: red;
+            }
+
+            to{
+                width: 400px;
+                height: 600px;
+                background: green;
+            }
+        }
+
+        /* 声明关键帧多种状态 */
+        @keyframes xymrun1 {
+            0%{
+                width: 200px;
+                height: 200px;
+                background: red;
+            }
+
+            25%{
+                width: 200px;
+                height: 400px;
+                background: yellow;
+            }
+
+            50%{
+                width: 400px;
+                height: 400px;
+                background: blue;
+            }
+
+            70%{
+                width: 400px;
+                height: 500px;
+                background: black;
+            }
+
+
+            100%{
+                width: 400px;
+                height: 600px;
+                background: green;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div></div>
+</body>
+</html>

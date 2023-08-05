@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /**属性选择器  有属性class的盒子进行选中**/
+        [class]{
+            background: red;
+        }
+
+          /**属性选择器  div标签有属性class的盒子进行选中**/
+        div[class]{
+            background: red;
+        }
+
+        /**属性选择器  div标签有class=box1的指定盒子进行选中(=完全匹配)**/
+        div[class=box1]{
+            background: green;
+        }
+
+        input[name]{
+            background: burlywood;
+        }
+
+        input[type=url]{
+            background: greenyellow;
+        }
+
+
+        /**属性选择器  div标签class属性包含box1的指定盒子进行选中(~=包含匹配)**/
+        div[class~=box1]{
+        background: green;
+        }
+
+         /**属性选择器  
+         class^="A"以A这个开头匹配   
+         class$="b"以b这个结尾匹配   
+         class*="A"包含A字母匹配   **/
+           div[class$="2"]{
+            background: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box1">div-1111</div>
+    <div class="box2">div-2222</div>
+    <div>div-3333</div>
+    <div class="box1">div-4444</div>
+    <div class="box1 box3">div-5555</div>
+    <p class="p1">p-1111</p>
+    <p class="p2">p-2222</p>
+    <p>p-3333</p>
+
+
+    <br>
+    <h1>注册页面</h1>
+    <div>
+        选择颜色：<input type="color" name="color">   
+    </div>
+    <div>
+        邮箱<input type="email" name="email">   
+    </div>
+    <div>
+        地址<input type="url" name="url">   
+    </div>
+    <div>
+        电话号码<input type="tel" name="tel">   
+    </div>
+</body>
+</html>

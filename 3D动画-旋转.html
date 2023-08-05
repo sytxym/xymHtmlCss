@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+            width: 500px;
+            height: 500px;
+            border: 5px solid gray;
+            display: flex;
+            transform-style: preserve-3d;
+        }
+
+        .center{
+            margin: auto;
+            width: 200px;
+            height: 200px;
+            background: red;
+            /* transform: rotateX(30deg); */
+            transform: rotate3d(1,1,1,30deg);
+            /* rotate3d 前面3个参数取值是0-1 ,x,y,z的旋转角度都是1乘以30度*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="center"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: green;
+            border-radius: 10px;
+            /* 单独使用 */
+            border-top-left-radius: 20px;
+            margin: 0 auto;
+        }
+
+        /* 圆形 */
+        .box+div{
+            width: 200px;
+            height: 200px;
+            background: red;
+            border-radius: 50%; 
+        }
+
+        /* 半圆 */
+        .banyuan{
+            width: 200px;
+            height: 100px;
+            background: black;
+            margin: 0 auto;
+            border-radius: 100px 100px 0 0;
+        }
+
+        /* 扇形 */
+        .shanxing{
+            width: 150px;
+            height: 150px;
+            background: gold;
+            margin: 0 auto;
+            border-radius: 0 0 150px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+
+    <div>
+
+    </div>
+
+    <div class="banyuan">
+
+    </div>
+
+    <div class="shanxing"></div>
+</body>
+</html>
